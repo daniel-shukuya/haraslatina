@@ -1,0 +1,190 @@
+{% extends 'base.html.twig' %}
+
+{% block body %}
+
+<!-- Navigation -->
+<nav class="navbar navbar-custom navbar-fixed-top" role="navigation">
+  <div class="container">
+    <div class="navbar-header">
+      <button class="navbar-toggle" data-target=".navbar-main-collapse" data-toggle="collapse" type="button">
+        <i class="fa fa-bars"></i>
+      </button>
+      <a class="page-scroll" href="#page-top">
+<!-- <i class="fa fa-play-circle"></i>  <span class="light">Start</span> Bootstrap -->
+        <img height="50px" src="img/logo_small.gif">
+      </a>
+    </div>
+
+<!-- Collect the nav links, forms, and other content for toggling -->
+    <div class="collapse navbar-collapse navbar-right navbar-main-collapse">
+      <ul class="nav navbar-nav">
+<!-- Hidden li included to remove active class from about link when scrolled up past about section -->
+        <li class="hidden">
+          <a href="#page-top"></a>
+        </li>
+        <li>
+          <a class="page-scroll" href="#about">Inicio</a>
+        </li>
+        <li>
+          <a class="page-scroll" href="#servicios">Servicios</a>
+        </li>
+        <li>
+          <a class="page-scroll" href="#masterplan">Masterplan</a>
+        </li>
+        <li>
+          <a class="page-scroll" href="#map">Ubicación</a>
+        </li>
+        <li>
+          <a class="page-scroll" href="#contacto">Contacto</a>
+        </li>
+      </ul>
+    </div>
+<!-- /.navbar-collapse -->
+  </div>
+<!-- /.container -->
+</nav>
+
+<!-- Intro Header -->
+<header class="intro">
+  <div class="intro-body">
+    <div class="container">
+      <div class="row">
+        <div class="col-md-8 col-md-offset-2">
+<!-- <h1 class="brand-heading">Grayscale</h1> -->
+<!-- style="margin-top: -30px" -->
+          <img class="brand-heading" src="img/logo.gif" style="margin: -40px 0 40px 0"/>
+
+          <p class="intro-text">Seguridad Naturaleza Tranquilidad</p>
+          <a class="btn btn-circle page-scroll" href="#about">
+            <i class="fa fa-angle-double-down animated"></i>
+          </a>
+        </div>
+      </div>
+    </div>
+  </div>
+</header>
+
+<!-- About Section -->
+<section class="container content-section text-center" id="about">
+  <div class="row">
+    <div class="col-lg-8 col-lg-offset-2">
+      <h2>Haras Latina</h2>
+      <p>Haras Latina se encuentra estrategicamente ubicado a 35 min de la Ciudad Autónoma de Buenos Aires y a 7 min del Aeropuerto Internacional de Ezeiza. Beneficiado por su ubicación en un marco de naturaleza, prevaleciendo ante todo la seguridad y tranquilidad.</p>
+      <p>Cuenta con una superficie de 5 ha. distribuidas en 49 lotes cuyas medidas varían entre 800 y 1200 mts2.</p>
+      <p>Haras Latina se diferencia por ser el único barrio ecofriendly en la zona y al realizar este proyecto se ha tenido particular cuidado en el impacto que pudises causar en el paisaje urbano, por lo tanto se ha recurrido a un tendido subterráneo para preservar el ambiente natural que Haras Latina ofrece.</p>
+    </div>
+  </div>
+</section>
+
+<!-- Download Section -->
+<section class="content-section text-center" id="servicios">
+  <div class="download-section">
+    <div class="container">
+      <div class="col-lg-8 col-lg-offset-2">
+        <h2>Servicios</h2>
+        <ul>
+          <li>
+            Calles asfaltadas
+          </li>
+          <li>
+            Parquización de terrenos, calles y rotondas
+          </li>
+          <li>
+            Red eléctrica subterránea
+          </li>
+          <li>
+            Red subterránea de telefonía
+          </li>
+          <li>
+            Sistema de recolección de residuos
+          </li>
+          <li>
+            Red de gas natural
+          </li>
+          <li>
+            Alambrado perimetral
+          </li>
+          <li>
+            Seguridad</li>
+        </ul>
+
+<!-- <p>You can download Grayscale for free on the preview page at Start Bootstrap.</p>
+                      </li>
+                    <a href="http://startbootstrap.com/template-overviews/grayscale/" class="btn btn-default btn-lg">Visit Download Page</a> -->
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- <section id="masterplan">
+  <div class="row">
+    <div class="col-lg-8 col-lg-offset-2">
+      <h2>masterplan</h2>
+    </div>
+  </div>
+</section> -->
+
+<!-- Map Section -->
+<div id="map"></div>
+
+<!-- Contact Section -->
+<section class="container content-section text-center" id="contacto">
+  <div class="row">
+    <div class="col-lg-8 col-lg-offset-2">
+      <h2>Contacto</h2>
+<!-- <p>Feel free to email us to provide some feedback on our templates, give us suggestions for new templates and themes, or to just say hello!</p> -->
+      <p>
+        <a href="mailto:ventas@haraslatina.com.ar">ventas@haraslatina.com.ar</a>
+      </p>
+      <ul class="list-inline banner-social-buttons">
+        <li>
+          <a class="btn btn-default btn-lg" href="https://twitter.com/haraslatina">
+            <i class="fa fa-twitter fa-fw"></i>
+            <span class="network-name">Twitter</span>
+          </a>
+        </li>
+<!-- <li>
+                        <a href="https://github.com/IronSummitMedia/startbootstrap" class="btn btn-default btn-lg"><i class="fa fa-github fa-fw"></i> <span class="network-name">Github</span></a>
+                    </li> -->
+        <li>
+          <a class="btn btn-default btn-lg" href="https://plus.google.com/">
+            <i class="fa fa-google-plus fa-fw"></i>
+            <span class="network-name">Google+</span>
+          </a>
+        </li>
+      </ul>
+    </div>
+  </div>
+</section>
+
+<!-- Footer -->
+<footer>
+  <div class="container text-center">
+    <p>Copyright &copy; Haras Latina
+      {{ "now"|date("Y") }}</p>
+  </div>
+</footer>
+
+{% endblock %}
+{% block javascripts %}
+<!-- jQuery -->
+<!-- <script src="js/jquery.js"></script> -->
+
+<!-- Bootstrap Core JavaScript -->
+<!-- <script src="js/bootstrap.min.js"></script> -->
+
+<!-- Plugin JavaScript -->
+<script src="js/jquery.easing.min.js"></script>
+
+<!-- Google Maps API Key - Use your own API key to enable the map feature. More information on the Google Maps API can be found at https://developers.google.com/maps/ -->
+<script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyCRngKslUGJTlibkQ3FkfTxj3Xss1UlZDA&sensor=false" type="text/javascript"></script>
+
+<!-- Custom Theme JavaScript -->
+<script src="js/grayscale.js"></script>
+
+<script type="text/javascript">
+  $(document).ready(function() {
+  //alert('asdf');
+  });
+</script>
+{% endblock %}
