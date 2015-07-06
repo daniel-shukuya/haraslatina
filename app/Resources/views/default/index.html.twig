@@ -32,7 +32,7 @@
                         <a class="page-scroll" href="#masterplan">Masterplan</a>
                     </li>
                     <li>
-                        <a class="page-scroll" href="#map">Ubicación</a>
+                        <a class="page-scroll" href="#mapa">Ubicación</a>
                     </li>
                     <li>
                         <a class="page-scroll" href="#contacto">Contacto</a>
@@ -69,7 +69,7 @@
     <section id="about" class="container content-section text-center">
         <div class="row">
             <div class="col-lg-8 col-lg-offset-2">
-                <h2 >Haras Latina</h2>
+                <h2 >Haras Latina(poner logo mejor)</h2>
                 <p>Haras Latina se encuentra estrategicamente ubicado a 35 min de la Ciudad Autónoma de Buenos Aires y a 7 min del Aeropuerto Internacional de Ezeiza. Beneficiado por su ubicación en un marco de naturaleza, prevaleciendo ante todo la seguridad y tranquilidad.</p>
                 <p>Cuenta con una superficie de 5 ha. distribuidas en 49 lotes cuyas medidas varían entre 800 y 1200 mts2.</p>
                 <p>Haras Latina se diferencia por ser el único barrio ecofriendly en la zona y al realizar este proyecto se ha tenido particular cuidado en el impacto que pudises causar en el paisaje urbano, por lo tanto se ha recurrido a un tendido subterráneo para preservar el ambiente natural que Haras Latina ofrece.</p>
@@ -127,28 +127,75 @@
     </section>
 
     <section class="content-section text-center" id="masterplan">
-
-        <div class="row">
-            <div class="col-lg-8 col-lg-offset-2">
-                <h2>masterplan</h2>
-                <img src="img/masterplan.png" height="300px;" />
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-8 col-lg-offset-2">
+                    <h2>masterplan</h2>
+                    <img src="img/masterplan.png" height="300px;" />
+                </div>
             </div>
         </div>
-
     </section>
 
-    <!-- Map Section -->
-    <div id="map"></div>
+    <!-- Mapa Section -->
+    <section class="text-center" id="mapa">
+        <div class="mapa-section">
+            <h2>aloha</h2>
+            {#        <div class="mapa-section">
+            {#            <div class="container">#}
+            {#        <div class="row">#}
+            {#<div class="row text-center">
+                <h2>Cómo llegar</h2>
+            </div>#}
+            {#        <div class="row">#}
+
+
+            <div id="map"></div>        </div>
+
+        {#        </div>#}
+        {#        </div>#}
+        {#            </div>#}
+        {#        </div>#}
+    </section>
 
     <!-- Contact Section -->
     <section class="container content-section text-center" id="contacto">
-        <div class="row">
-            <div class="col-lg-8 col-lg-offset-2">
-                <h2>Contacto</h2>
-                <!-- <p>Feel free to email us to provide some feedback on our templates, give us suggestions for new templates and themes, or to just say hello!</p> -->
-                <p>
-                    <a href="mailto:ventas@haraslatina.com.ar">ventas@haraslatina.com.ar</a>
-                </p>
+        <div class="container">
+
+            <div class="row">
+                <div class="col-lg-8 col-lg-offset-2">
+                    <div class="row">
+                        <div class="col-lg-6">
+                            <h2>Contáctenos</h2>
+                            <p>Solicitar citra previa a:</p>
+                            <p>
+                                <a href="mailto:ventas@haraslatina.com.ar">ventas@haraslatina.com.ar</a>
+                            </p>
+                        </div>
+                        <div class="col-lg-6">
+                            <h2>Oficinas</h2>
+                            <div class="well">
+                                <form class="" style="color: black;">
+                                    <div class="form-group">
+                                        <label for="nombre">Nombre:</label>
+                                        <input id="nombre" name="nombre" type="text" required="required" />
+                                    </div>
+                                    <div class="form-group">
+                                        <label for="email">Email:</label>
+                                        <input id="email" name="email" type="email" required="required" />
+
+                                    </div>
+                                    <div class="form-group">
+                                        <input type="submit" class="btn btn-primary" value="Enviar" />
+                                    </div>
+                                </form>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <br/>
+            <div class="row">
                 <ul class="list-inline banner-social-buttons">
                     <li>
                         <a class="btn btn-default btn-lg" href="https://twitter.com/haraslatina">
