@@ -56,7 +56,7 @@
 
                         {#                        <p class="intro-text">Seguridad</p>#}
                         <br/>
-                        <a class="btn btn-circle page-scroll" href="#about" style="margin-top: 480px;">
+                        <a class="btn btn-circle page-scroll" href="#about" style="margin-top: 524px;">
                             <i class="fa fa-angle-double-down animated"></i>
                         </a>
                     </div>
@@ -69,7 +69,7 @@
     <section id="about" class="container content-section text-center">
         <div class="row">
             <div class="col-lg-8 col-lg-offset-2">
-                <h2 >Haras Latina(poner logo mejor)</h2>
+                <img height="160px" src="img/logo-extend-small.png"/>
                 <p>Haras Latina se encuentra estrategicamente ubicado a 35 min de la Ciudad Autónoma de Buenos Aires y a 7 min del Aeropuerto Internacional de Ezeiza. Beneficiado por su ubicación en un marco de naturaleza, prevaleciendo ante todo la seguridad y tranquilidad.</p>
                 <p>Cuenta con una superficie de 5 ha. distribuidas en 49 lotes cuyas medidas varían entre 800 y 1200 mts2.</p>
                 <p>Haras Latina se diferencia por ser el único barrio ecofriendly en la zona y al realizar este proyecto se ha tenido particular cuidado en el impacto que pudises causar en el paisaje urbano, por lo tanto se ha recurrido a un tendido subterráneo para preservar el ambiente natural que Haras Latina ofrece.</p>
@@ -130,7 +130,7 @@
         <div class="container">
             <div class="row">
                 <div class="col-lg-8 col-lg-offset-2">
-                    <h2>masterplan</h2>
+                    <h2>Masterplan</h2>
                     <img src="img/masterplan.png" height="300px;" />
                 </div>
             </div>
@@ -140,22 +140,9 @@
     <!-- Mapa Section -->
     <section class="text-center" id="mapa">
         <div class="mapa-section">
-            <h2>aloha</h2>
-            {#        <div class="mapa-section">
-            {#            <div class="container">#}
-            {#        <div class="row">#}
-            {#<div class="row text-center">
-                <h2>Cómo llegar</h2>
-            </div>#}
-            {#        <div class="row">#}
-
-
-            <div id="map"></div>        </div>
-
-        {#        </div>#}
-        {#        </div>#}
-        {#            </div>#}
-        {#        </div>#}
+            <h2>Cómo Llegar</h2>
+            <div id="map"></div>        
+        </div>
     </section>
 
     <!-- Contact Section -->
@@ -220,7 +207,7 @@
     <!-- Footer -->
     <footer>
         <div class="container text-center">
-            <p>Copyright &copy; Haras Latina
+            <p style="font-size: 14px;">Copyright &copy; Haras Latina
                 {{ "now"|date("Y") }}</p>
         </div>
     </footer>
@@ -237,7 +224,8 @@
     <script src="js/jquery.easing.min.js"></script>
 
     <!-- Google Maps API Key - Use your own API key to enable the map feature. More information on the Google Maps API can be found at https://developers.google.com/maps/ -->
-    <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyCRngKslUGJTlibkQ3FkfTxj3Xss1UlZDA&sensor=false" type="text/javascript"></script>
+    {#    <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyCRngKslUGJTlibkQ3FkfTxj3Xss1UlZDA&sensor=false" type="text/javascript"></script>#}
+    <script type="text/javascript" src="https://maps.googleapis.com/maps/api/js?key=AIzaSyCjN_ACgYdsLoClobLVCL9o9DhUR5DQ8XM"></script>
 
     <!-- Custom Theme JavaScript -->
     <script src="js/grayscale.js"></script>
