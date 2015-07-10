@@ -9,10 +9,10 @@ body {
     height: 100%;
     /*font-family: Lora,"Helvetica Neue",Helvetica,Arial,sans-serif;*/
     font-family: 'Roboto', sans-serif;
+    /*font-family: 'Nothing You Could Do', cursive;*/
     /*color: #fff;*/
     color: #86A300;
-    /*background-color: #000;*/
-    /*background-color: #86A300;*/
+    /*background-color: #DEEBB7;*/
     background-color: #fff;
     /*background: linear-gradient(to bottom, rgba(255,255,255,1) 16%,rgba(235,240,244,1) 46%,rgba(222,229,234,1) 79%);*/
 }
@@ -30,6 +30,7 @@ h5,
 h6 {
     margin: 0 0 35px;
     text-transform: uppercase;
+    font-family: 'Nothing You Could Do', cursive;
     /*font-family: Montserrat,"Helvetica Neue",Helvetica,Arial,sans-serif;*/
     font-weight: 700;
     letter-spacing: 1px;
@@ -70,6 +71,8 @@ a:focus {
     margin-bottom: 0;
     border-bottom: 1px solid rgba(255,255,255,.3);
     text-transform: uppercase;
+    font-weight: bold;
+    font-family: 'Nothing You Could Do', cursive;
     /*font-family: Montserrat,"Helvetica Neue",Helvetica,Arial,sans-serif;*/
     background-color: #000;
 }
@@ -107,6 +110,7 @@ a:focus {
     outline: 0;
     color: rgba(255,255,255,.8);
     background-color: transparent;
+
 }
 
 .navbar-custom .nav li a:focus,
@@ -263,8 +267,9 @@ a:focus {
     }
 }
 
-.content-section {
-    padding-top: 100px;
+.slogan1{
+    background-color: #86A300;
+    color: white;
 }
 
 .mapa-section {
@@ -272,7 +277,20 @@ a:focus {
     padding: 50px 0;
     color: #fff;
     /*background: url(../img/empedrado.jpg) no-repeat center center scroll;*/
-    background-color: #000;
+    /*background-color: #000;*/
+    background-color: #86A300;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    background-size: cover;
+    -o-background-size: cover;
+}
+
+.masterplan-section {
+    width: 100%;
+    padding: 50px 0;
+    color: #86A300;
+    /*background: url(../img/empedrado.jpg) no-repeat center center scroll;*/
+    /*background-color: white;*/
     -webkit-background-size: cover;
     -moz-background-size: cover;
     background-size: cover;
@@ -291,31 +309,29 @@ a:focus {
     -o-background-size: cover;
 }
 
-/*.masterplan-section {
-    width: 100%;
-    padding: 50px 0;
-    color: #fff;
-    background: url(../img/masterplan.png) no-repeat center center scroll;
-    background-color: #000;
-    -webkit-background-size: cover;
-    -moz-background-size: cover;
-    background-size: cover;
-    -o-background-size: cover;
-}*/
-
 #map {
     width: 100%;
     height: 200px;
     /*margin-top: 100px;*/
 }
 
+.content-section-slogan {
+    padding-top: 40px;
+    background-color: #86A300;
+    color: white;
+}
+
+.content-section {
+    padding-top: 50px;
+}
+
 @media(min-width:767px) {
     .content-section {
-        padding-top: 120px;
+        padding-top: 70px;
     }
 
     .download-section {
-        padding: 100px 0;
+        padding: 70px 0;
     }
 
     #map {
@@ -325,7 +341,7 @@ a:focus {
 }
 
 .btn {
-    border-radius: 0;
+    /*border-radius: 0;*/
     text-transform: uppercase;
     /*font-family: Montserrat,"Helvetica Neue",Helvetica,Arial,sans-serif;*/
     font-weight: 400;
@@ -336,8 +352,14 @@ a:focus {
 
 .btn-default {
     border: 1px solid #42dca3;
-    color: #42dca3;
+    color: #86A300;
     background-color: transparent;
+}
+
+.btn-primary {
+    border: 1px solid #A6B935;
+    color: #86A300;
+    background-color: #86A300;
 }
 
 .btn-default:hover,
@@ -378,7 +400,7 @@ footer p {
     margin: 0;
 }
 
-::-moz-selection {
+/*::-moz-selection {
     text-shadow: none;
     background: #fcfcfc;
     background: rgba(255,255,255,.2);
@@ -388,7 +410,7 @@ footer p {
     text-shadow: none;
     background: #fcfcfc;
     background: rgba(255,255,255,.2);
-}
+}*/
 
 img::selection {
     background: 0 0;
@@ -400,4 +422,37 @@ img::-moz-selection {
 
 body {
     webkit-tap-highlight-color: rgba(255,255,255,.2);
+}
+
+.linea{
+    line-height: 0.2;
+    text-align: left;
+    font-family: 'Roboto', sans-serif;
+    text-align: left;
+}
+
+.publicidad{
+    /*font-size: 40px;*/
+    /*text-transform: uppercase;*/
+    font-weight: 900;
+    /*font-size: 30px;*/
+    line-height: 0.8;
+    /*padding: 14px;*/
+    float: right;
+    margin-top: 450px;
+    /*background-color: #86A300;*/
+    -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=50)";       /* IE 8 */
+    filter: alpha(opacity=50);  /* IE 5-7 */
+    -moz-opacity: 0.5;          /* Netscape */
+    -khtml-opacity: 0.5;        /* Safari 1.x */
+    opacity: 0.5;
+}
+
+.publi1{
+    background-color: #2B2F31;
+    color:#86A300;
+}
+.publi2{
+    background-color: #A8A9AD;
+    color: #fff;
 }
