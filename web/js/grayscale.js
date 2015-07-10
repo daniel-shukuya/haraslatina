@@ -41,8 +41,7 @@ function init() {
     zoom: 13,
 
     // The latitude and longitude to center the map (always required)
-    // center: new google.maps.LatLng(40.6700, -73.9400), // New York
-    center: new google.maps.LatLng(-34.859509, -58.594090), // Haras Latina
+    center: new google.maps.LatLng(-34.855721, -58.592995), // Haras Latina
 
     // Disables the default Google Maps UI components
     disableDefaultUI: false,

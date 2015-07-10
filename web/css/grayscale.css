@@ -274,7 +274,7 @@ a:focus {
 
 .mapa-section {
     width: 100%;
-    padding: 50px 0;
+    padding: 40px 0 0 0;
     color: #fff;
     /*background: url(../img/empedrado.jpg) no-repeat center center scroll;*/
     /*background-color: #000;*/
@@ -341,16 +341,16 @@ a:focus {
 }
 
 .content-section {
-    padding-top: 50px;
+    padding-top: 30px;
 }
 
 @media(min-width:767px) {
     .content-section {
-        padding-top: 70px;
+        padding-top: 40px;
     }
 
     .download-section {
-        padding: 70px 0;
+        padding: 40px 0;
     }
 
     #map {
