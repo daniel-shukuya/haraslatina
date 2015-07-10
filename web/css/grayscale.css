@@ -30,7 +30,7 @@ h5,
 h6 {
     margin: 0 0 35px;
     text-transform: uppercase;
-    font-family: 'Nothing You Could Do', cursive;
+    /*font-family: 'Nothing You Could Do', cursive;*/
     /*font-family: Montserrat,"Helvetica Neue",Helvetica,Arial,sans-serif;*/
     font-weight: 700;
     letter-spacing: 1px;
@@ -297,11 +297,30 @@ a:focus {
     -o-background-size: cover;
 }
 
+.about-section {
+    padding-top: 50px;
+    background: url(../img/about2.jpg);
+    background-size: cover;
+    height: 100%;
+    max-height:100%;
+    overflow: auto;
+    color:#BDBEC1;
+}
+
+.about-section p {
+    font-size: 16px;
+}
+
 .download-section {
     width: 100%;
     padding: 50px 0;
     color: #fff;
-    background: url(../img/empedrado.jpg) no-repeat center center scroll;
+    /*background: url(../img/empedrado.jpg) no-repeat center center scroll;*/
+    background: url(../img/empedrado.jpg);
+    /*background:url(https://unsplash.imgix.net/photo-1419332563740-42322047ff09?q=75&fm=jpg&s=f1e7d176e154bfe4a511b9ecd95a0a84);*/
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
     background-color: #000;
     -webkit-background-size: cover;
     -moz-background-size: cover;
@@ -316,7 +335,7 @@ a:focus {
 }
 
 .content-section-slogan {
-    padding-top: 40px;
+    padding-top: 30px;
     background-color: #86A300;
     color: white;
 }
